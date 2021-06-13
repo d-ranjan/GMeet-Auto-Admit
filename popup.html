@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <title>Activate/Deactivate GMeet</title>
+    <style>
+        body {
+            width: 200px;
+            overflow: hidden;
+            margin: 0px;
+            padding: 10px;
+            background: white;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 12px;
+            font-weight: 800;
+            color: #ffffff;
+        }
+        button:hover{
+            background: #176769;
+        }
+        .activate {
+            background: #4caf50;
+        }
+        .deactivate {
+            background: #e53935;
+        }
+        .model{
+            width: 75px;
+            height: 75px;
+            display: flex;
+            margin: auto;
+        }
+        image{
+            margin: auto;
+        }
+        .flex{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="model">
+        <img src="Icons/Icon128.png" alt="" srcset="">
+    </div>
+    <div class="flex">
+        <button class="activate">Activate</button>
+        <button class="deactivate">Deactivate</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
